@@ -1,0 +1,33 @@
+{
+  "name": "opencode-interrupt-palette",
+  "version": "1.0.0",
+  "description": "OpenCode TUI plugin: an 'Interrupt session' command in the command palette that interrupts the running session in one action",
+  "type": "module",
+  "exports": {
+    "./tui": "./src/tui.ts"
+  },
+  "files": [
+    "src/"
+  ],
+  "keywords": [
+    "opencode",
+    "plugin",
+    "opencode-plugin",
+    "interrupt",
+    "session",
+    "tui",
+    "command-palette"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VastFuture/opencode-interrupt-palette.git"
+  },
+  "homepage": "https://github.com/VastFuture/opencode-interrupt-palette#readme",
+  "bugs": {
+    "url": "https://github.com/VastFuture/opencode-interrupt-palette/issues"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  }
+}
